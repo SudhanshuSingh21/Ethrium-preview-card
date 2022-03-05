@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+body
+{
+    background-color: hsl(217, 54%, 11%);
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+.card
+{
+    background-color: hsl(216, 50%, 16%);
+    width: 18.75rem;
+    height: 31.875rem;
+    margin: auto;
+    position: relative;
+    top: 60px;
+    border-radius: 3%;
+    overflow: fit-content;
+}
+.etherium-img
+{
+    width:16.5625rem;
+    padding: 17px;
+    border-radius: 9%;
+    cursor: pointer;
+}
+.card-text
+{
+    margin-top: -2.5rem;
+    padding: 17px 25px 5px 17px;
+}
+.card-text h3
+{
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+}
+.card-text p
+{
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+    font-weight: 300;
+}
+.card-content
+{
+    margin-top: -20px;
+    padding: 17px;
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.etherium
+{
+    color: hsl(178, 100%, 50%);
+}
+.time
+{
+    text-align: right;
+}
+.time-color
+{
+    color: hsl(215, 51%, 70%);
+}
+hr
+{
+    border: none;
+    border-top: .5px solid hsl(215, 32%, 27%);
+    border-bottom: hidden;
+    width: 16.5rem;
+}
+.card-footer
+{
+    display: grid;
+    grid-template-columns: 50px 200px;
+    column-gap: 12px;
+}
+.footer-img
+{
+    padding: 9px 0 0 17px;
+}
+.footer-img img
+{
+    width: 1.5rem;
+    border: solid #fff;
+    border-radius: 50%;
+    position: relative;
+    bottom: 5px;
+}
+.card-footer p
+{
+    color: hsl(215, 51%, 70%);
+    font-size: 13px;
+    font-weight: 300;
+    position: relative;
+    bottom: 4px;
+    text-align: left;
+}
+.Jules-color
+{
+    color: #fff;
+    font-size: 13px;
+    font-weight: 300;
+}
+@media (max-width: 768px)
+{
+    .card{
+        margin-bottom: 125px;
+    }
+}
